@@ -22,6 +22,7 @@ kubectl create -n selenium-grid --filename=selenium-hub-svc.yaml
 ```
 
 minikube service -n selenium-grid  selenium-hub
+
 |---------------|--------------|-------------|-----------------------------|
 |   NAMESPACE   |     NAME     | TARGET PORT |             URL             |
 |---------------|--------------|-------------|-----------------------------|
