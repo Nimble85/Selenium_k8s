@@ -12,9 +12,4 @@ pipelineJob('job-dsl-plugin') {
       lightweight()
     }
   }
-          success {
-          step([$class: 'MinioUploader',
-                               sourceFile: '*.yaml',
-                               bucketName: 'artifacts']) 
-        }
 }
